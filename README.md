@@ -1,4 +1,4 @@
-### Guix Nonfree
+# Guix Nonfree
 
 An unofficial collection of packages that do not comply with the FSDG and are
 therefore not going to be accepted in to guix.
@@ -46,7 +46,7 @@ guix system disk-image gnu/system/install.scm --image-size=1.1G
 5. Follow the usual installation steps from the guix manual.
 
 
-# Example configuration
+### Example configuration
 
 ```scheme
 (use-modules (guix packages)
